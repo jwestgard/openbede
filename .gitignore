@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# OS-specific files:
+.DS_Store
+
+# project data
+data/*
