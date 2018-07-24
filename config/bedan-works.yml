@@ -1,8 +1,7 @@
 CAc:
   abbreviation: CAc
-  giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: 
+    - giles: '1.184-86 and '
   title: Expositio Actuum Apostolorum
 CAcN:
   abbreviation: CAcN
@@ -12,271 +11,314 @@ CAcN:
   title: Expositio nominum locorum in Actus contentorum
 CAcR:
   abbreviation: CAcR
-  giles: ''
+  editions: 
+    - giles: '1.187-88 and '
   heerwagen: ''
   migne: ''
   title: Retractatio in Actus Apostolorum
 CAp:
   abbreviation: CAp
-  giles: ''
+  editions:
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Expositio Apocalypseos
 CC:
   abbreviation: CC
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: In Cantica Canticorum
 CEC:
   abbreviation: CEC
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: In epistulas VII catholicas
 CEP:
   abbreviation: CEP
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Collectio ex opusculis sancti Augustini in epistulas Pauli
 CEz:
   abbreviation: CEz
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: In Ezram et Neemiam
 CGH:
   abbreviation: CGH
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: In principium Genesis (Ia only)
 CGL:
   abbreviation: CGL
-  giles: '1.169-70'
+  editions: 
+    - giles: '1.169-70'
   heerwagen: ''
   migne: ''
   title: In principium Genesis (long version, = four books)
 CGS:
   abbreviation: CGS
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: In principium Genesis (short vers. = Ia+Ib)
 CH:
   abbreviation: CH
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Expositio in Canticam Habacuc
 CI:
   abbreviation: CI
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De eo quod ait Isaias
 CL:
   abbreviation: CL
-  giles: ''
+  editions: 
+    - giles: '1.179-83 and'
   heerwagen: ''
   migne: ''
   title: In Lucae euangelium expositio
 CM:
   abbreviation: CM
-  giles: '1.176 and '
+  editions: 
+    - giles: '1.176 and '
   heerwagen: ''
   migne: ''
   title: In Marci euangelium expositio
 CMF:
   abbreviation: CMF
-  giles: ''
+  editions: 
+    - giles: '1.198-202'
   heerwagen: ''
   migne: ''
   title: De mansionibus filiorum Israel
 CPr:
   abbreviation: CPr
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: In Prouerbia Salemonis
 CPs:
   abbreviation: CPs
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Collectio Psalterii
 CQO:
   abbreviation: CQO
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De octo quaestionibus
 CQT:
   abbreviation: CQT
-  giles: '1.174-75'
+  editions: 
+    - giles: '1.174-75'
   heerwagen: ''
   migne: ''
   title: In Regum librum XXX quaestiones
 CS:
   abbreviation: CS
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: In primam partem Samuhelis
 CTa:
   abbreviation: CTa
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De tabernaculo
 CTe:
   abbreviation: CTe
-  giles: '1.171-73'
+  editions: 
+    - giles: '1.171-73'
   heerwagen: ''
   migne: ''
   title: De templo
 CTo:
   abbreviation: CTo
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: 'In librum beati patris Tobiae '
 ChMa:
   abbreviation: ChMa
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Chronica maiora
 ChMi:
   abbreviation: ChMi
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Chronica minora
 DAM:
   abbreviation: DAM
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De arte metrica
 DLS:
   abbreviation: DLS
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De locis sanctis
 DNR:
   abbreviation: DNR
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De natura rerum
 DO:
   abbreviation: DO
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De orthographia
 DST:
   abbreviation: DST
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De schematibus et tropis
 DT:
   abbreviation: DT
-  giles: '6.128-51'
+  editions: 
+    - giles: '6.128-51'
   heerwagen: ''
   migne: ''
   title: De temporibus
 DTR:
   abbreviation: DTR
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: De temporum ratione
 EpA:
   abbreviation: EpA
-  giles: '1.106-7'
+  editions: 
+    - giles: '1.106-7'
   heerwagen: ''
   migne: ''
   title: Epistula ad Albinum
 EpE:
   abbreviation: EpE
-  giles: '1.108-143'
+  editions: 
+    - giles: '1.108-143'
   heerwagen: ''
   migne: ''
   title: Epistula ad Ecgbertum
 EpH:
   abbreviation: EpH
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Epistula ad Helmuualdum
 EpP:
   abbreviation: EpP
-  giles: '1.144-154'
+  editions: 
+    - giles: '1.144-154'
   heerwagen: ''
   migne: ''
   title: Epistula ad Pleguinum
 EpW:
   abbreviation: EpW
-  giles: '1.155-168'
+  editions: 
+    - giles: '1.155-168'
   heerwagen: ''
   migne: ''
   title: Epistula ad Uuicthedum
 H:
   abbreviation: H
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Homiliae euangelii
 HAB:
   abbreviation: HAB
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Historia abbatum
 HE:
   abbreviation: HE
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Historia ecclesiastica gentis Anglorum
 M:
   abbreviation: M
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Martyrologium
 P:
   abbreviation: P
-  giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: 
+    - editions: []
   title: Poems
 VA:
   abbreviation: VA
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Passio Anastasii
 VCM:
   abbreviation: VCM
-  giles: '1.1-34'
+  editions: 
+    - giles: '1.1-34'
   heerwagen: ''
   migne: ''
   title: Vita Cuthberti metrica
 VCP:
   abbreviation: VCP
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Vita Cuthberti prosaica
 VF:
   abbreviation: VF
-  giles: ''
+  editions: 
+    - giles: ''
   heerwagen: ''
   migne: ''
   title: Vita Felicis
