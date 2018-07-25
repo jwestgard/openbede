@@ -26,14 +26,12 @@ CAp:
 CC:
   abbreviation: CC
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 9.188-404
   title: In Cantica Canticorum
 CEC:
   abbreviation: CEC
   editions: 
-    - giles: ''
+    - giles: '1.215-16 and '
   heerwagen: ''
   migne: ''
   title: In epistulas VII catholicas
@@ -47,42 +45,30 @@ CEP:
 CEz:
   abbreviation: CEz
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 8.360-463 and 9.1-52
   title: In Ezram et Neemiam
 CGH:
   abbreviation: CGH
-  editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: []
   title: In principium Genesis (Ia only)
 CGL:
   abbreviation: CGL
   editions: 
-    - giles: '1.169-70'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.169-70 and 7.1-224
   title: In principium Genesis (long version, = four books)
 CGS:
   abbreviation: CGS
-  editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: []
   title: In principium Genesis (short vers. = Ia+Ib)
 CH:
   abbreviation: CH
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 9.405-44
   title: Expositio in Canticam Habacuc
 CI:
   abbreviation: CI
   editions: 
-    - giles: ''
+    - giles: '1.203-14'
   heerwagen: ''
   migne: ''
   title: De eo quod ait Isaias
@@ -110,9 +96,7 @@ CMF:
 CPr:
   abbreviation: CPr
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 9.53-185
   title: In Prouerbia Salemonis
 CPs:
   abbreviation: CPs
@@ -131,30 +115,22 @@ CQO:
 CQT:
   abbreviation: CQT
   editions: 
-    - giles: '1.174-75'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.174-75 and 8.232-61
   title: In Regum librum XXX quaestiones
 CS:
   abbreviation: CS
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 7.368-432 and 8.1-231
   title: In primam partem Samuhelis
 CTa:
   abbreviation: CTa
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 7.225-367
   title: De tabernaculo
 CTe:
   abbreviation: CTe
   editions: 
-    - giles: '1.171-73'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.171-73 and 8.262-359
   title: De templo
 CTo:
   abbreviation: CTo
@@ -180,51 +156,37 @@ ChMi:
 DAM:
   abbreviation: DAM
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 6.40-79
   title: De arte metrica
 DLS:
   abbreviation: DLS
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 4.402-443
   title: De locis sanctis
 DNR:
   abbreviation: DNR
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 6.99-122
   title: De natura rerum
 DO:
   abbreviation: DO
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 6.1-39
   title: De orthographia
 DST:
   abbreviation: DST
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 6.80-98
   title: De schematibus et tropis
 DT:
   abbreviation: DT
   editions: 
-    - giles: '6.128-51'
-  heerwagen: ''
-  migne: ''
+    - giles: 6.123-38
   title: De temporibus
 DTR:
   abbreviation: DTR
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 6.139-352
   title: De temporum ratione
 EpA:
   abbreviation: EpA
@@ -264,61 +226,44 @@ EpW:
 H:
   abbreviation: H
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 5.1-464
   title: Homiliae euangelii
 HAB:
   abbreviation: HAB
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 4.358-401
   title: Historia abbatum
 HE:
   abbreviation: HE
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 2.22-397 and 3.4-319 (odd) 
   title: Historia ecclesiastica gentis Anglorum
+  notes: Giles 2.25-26 superseded by 3.s447-48
 M:
   abbreviation: M
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 4.16-172
   title: Martyrologium
 P:
   abbreviation: P
-  editions: 
-    - editions: []
+  editions: []
   title: Poems
 VA:
   abbreviation: VA
-  editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: []
   title: Passio Anastasii
 VCM:
   abbreviation: VCM
   editions: 
-    - giles: '1.1-34'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.1-34
   title: Vita Cuthberti metrica
 VCP:
   abbreviation: VCP
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 4.202-357
   title: Vita Cuthberti prosaica
 VF:
   abbreviation: VF
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 4.174-201
   title: Vita Felicis
