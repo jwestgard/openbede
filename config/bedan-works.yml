@@ -1,27 +1,21 @@
 CAc:
   abbreviation: CAc
   editions: 
-    - giles: '1.184-86 and '
+    - giles: 1.184-86 and 12.1-95
   title: Expositio Actuum Apostolorum
 CAcN:
   abbreviation: CAcN
-  giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: []
   title: Expositio nominum locorum in Actus contentorum
 CAcR:
   abbreviation: CAcR
   editions: 
-    - giles: '1.187-88 and '
-  heerwagen: ''
-  migne: ''
+    - giles: 1.187-88 and 12.96-156
   title: Retractatio in Actus Apostolorum
 CAp:
   abbreviation: CAp
   editions:
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 12.337-452
   title: Expositio Apocalypseos
 CC:
   abbreviation: CC
@@ -31,16 +25,11 @@ CC:
 CEC:
   abbreviation: CEC
   editions: 
-    - giles: '1.215-16 and '
-  heerwagen: ''
-  migne: ''
+    - giles: 1.215-16 and 12.157-336
   title: In epistulas VII catholicas
 CEP:
   abbreviation: CEP
-  editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: []
   title: Collectio ex opusculis sancti Augustini in epistulas Pauli
 CEz:
   abbreviation: CEz
@@ -55,7 +44,7 @@ CGL:
   abbreviation: CGL
   editions: 
     - giles: 1.169-70 and 7.1-224
-  title: In principium Genesis (long version, = four books)
+  title: In principium Genesis (long vers. in four books)
 CGS:
   abbreviation: CGS
   editions: []
@@ -68,30 +57,22 @@ CH:
 CI:
   abbreviation: CI
   editions: 
-    - giles: '1.203-14'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.203-14
   title: De eo quod ait Isaias
 CL:
   abbreviation: CL
   editions: 
-    - giles: '1.179-83 and'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.179-83, 10.265-407, 11.1-392
   title: In Lucae euangelium expositio
 CM:
   abbreviation: CM
   editions: 
-    - giles: '1.176 and '
-  heerwagen: ''
-  migne: ''
+    - giles: 1.176 and 10.1-264
   title: In Marci euangelium expositio
 CMF:
   abbreviation: CMF
   editions: 
-    - giles: '1.198-202'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.198-202
   title: De mansionibus filiorum Israel
 CPr:
   abbreviation: CPr
@@ -100,17 +81,11 @@ CPr:
   title: In Prouerbia Salemonis
 CPs:
   abbreviation: CPs
-  editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: []
   title: Collectio Psalterii
 CQO:
   abbreviation: CQO
-  editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: []
   title: De octo quaestionibus
 CQT:
   abbreviation: CQT
@@ -134,24 +109,17 @@ CTe:
   title: De templo
 CTo:
   abbreviation: CTo
-  editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
-  title: 'In librum beati patris Tobiae '
+  editions: []
+  title: In librum beati patris Tobiae
 ChMa:
   abbreviation: ChMa
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 6.270-342
   title: Chronica maiora
 ChMi:
   abbreviation: ChMi
   editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+    - giles: 6.132-38
   title: Chronica minora
 DAM:
   abbreviation: DAM
@@ -198,30 +166,21 @@ EpA:
 EpE:
   abbreviation: EpE
   editions: 
-    - giles: '1.108-143'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.108-143
   title: Epistula ad Ecgbertum
 EpH:
   abbreviation: EpH
-  editions: 
-    - giles: ''
-  heerwagen: ''
-  migne: ''
+  editions: []
   title: Epistula ad Helmuualdum
 EpP:
   abbreviation: EpP
   editions: 
-    - giles: '1.144-154'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.144-154
   title: Epistula ad Pleguinum
 EpW:
   abbreviation: EpW
   editions: 
-    - giles: '1.155-168'
-  heerwagen: ''
-  migne: ''
+    - giles: 1.155-168
   title: Epistula ad Uuicthedum
 H:
   abbreviation: H
