@@ -1,228 +1,226 @@
 CAc:
   abbreviation: CAc
-  editions: 
-    - giles: 1.184-86 and 12.1-95
   title: Expositio Actuum Apostolorum
+  editions:
+    giles: 1.184-86 and 12.1-95
 CAcN:
   abbreviation: CAcN
-  editions: []
   title: Expositio nominum locorum in Actus contentorum
+  editions: {}
 CAcR:
   abbreviation: CAcR
-  editions: 
-    - giles: 1.187-88 and 12.96-156
   title: Retractatio in Actus Apostolorum
+  editions: 
+    giles: 1.187-88 and 12.96-156
 CAp:
   abbreviation: CAp
-  editions:
-    - giles: 12.337-452
   title: Expositio Apocalypseos
+  editions:
+    giles: 12.337-452
 CC:
   abbreviation: CC
-  editions: 
-    - giles: 9.188-404
   title: In Cantica Canticorum
+  editions: 
+    giles: 9.188-404
 CEC:
   abbreviation: CEC
-  editions: 
-    - giles: 1.215-16 and 12.157-336
   title: In epistulas VII catholicas
+  editions: 
+    giles: 1.215-16 and 12.157-336
 CEP:
   abbreviation: CEP
-  editions: []
   title: Collectio ex opusculis sancti Augustini in epistulas Pauli
+  editions: []
 CEz:
   abbreviation: CEz
-  editions: 
-    - giles: 8.360-463 and 9.1-52
   title: In Ezram et Neemiam
+  editions: 
+    giles: 8.360-463 and 9.1-52
 CGH:
   abbreviation: CGH
-  editions: []
   title: In principium Genesis (Ia only)
+  editions: []
 CGL:
   abbreviation: CGL
-  editions: 
-    - giles: 1.169-70 and 7.1-224
   title: In principium Genesis (long vers. in four books)
+  editions:
+    giles: 1.169-70 and 7.1-224
 CGS:
   abbreviation: CGS
   editions: []
   title: In principium Genesis (short vers. = Ia+Ib)
 CH:
   abbreviation: CH
+  title: Expositio in Canticam Habacuc
   editions: 
     - giles: 9.405-44
-  title: Expositio in Canticam Habacuc
 CI:
   abbreviation: CI
+  title: De eo quod ait Isaias
   editions: 
     - giles: 1.203-14
-  title: De eo quod ait Isaias
 CL:
   abbreviation: CL
+  title: In Lucae euangelium expositio
   editions: 
     - giles: 1.179-83, 10.265-407, 11.1-392
-  title: In Lucae euangelium expositio
 CM:
   abbreviation: CM
+  title: In Marci euangelium expositio
   editions: 
     - giles: 1.176 and 10.1-264
-  title: In Marci euangelium expositio
 CMF:
   abbreviation: CMF
+  title: De mansionibus filiorum Israel
   editions: 
     - giles: 1.198-202
-  title: De mansionibus filiorum Israel
 CPr:
   abbreviation: CPr
+  title: In Prouerbia Salemonis
   editions: 
     - giles: 9.53-185
-  title: In Prouerbia Salemonis
 CPs:
   abbreviation: CPs
-  editions: []
   title: Collectio Psalterii
+  editions: {}
 CQO:
   abbreviation: CQO
-  editions: []
   title: De octo quaestionibus
+  editions: {}
 CQT:
   abbreviation: CQT
+  title: In Regum librum XXX quaestiones
   editions: 
     - giles: 1.174-75 and 8.232-61
-  title: In Regum librum XXX quaestiones
 CS:
   abbreviation: CS
+  title: In primam partem Samuhelis
   editions: 
     - giles: 7.368-432 and 8.1-231
-  title: In primam partem Samuhelis
 CTa:
   abbreviation: CTa
+  title: De tabernaculo
   editions: 
     - giles: 7.225-367
-  title: De tabernaculo
 CTe:
   abbreviation: CTe
+  title: De templo
   editions: 
     - giles: 1.171-73 and 8.262-359
-  title: De templo
 CTo:
   abbreviation: CTo
-  editions: []
   title: In librum beati patris Tobiae
+  editions: []
 ChMa:
   abbreviation: ChMa
+  title: Chronica maiora
   editions: 
     - giles: 6.270-342
-  title: Chronica maiora
 ChMi:
   abbreviation: ChMi
+  title: Chronica minora
   editions: 
     - giles: 6.132-38
-  title: Chronica minora
 DAM:
   abbreviation: DAM
+  title: De arte metrica
   editions: 
     - giles: 6.40-79
-  title: De arte metrica
 DLS:
   abbreviation: DLS
+  title: De locis sanctis
   editions: 
     - giles: 4.402-443
-  title: De locis sanctis
 DNR:
   abbreviation: DNR
+  title: De natura rerum
   editions: 
     - giles: 6.99-122
-  title: De natura rerum
 DO:
   abbreviation: DO
+  title: De orthographia
   editions: 
     - giles: 6.1-39
-  title: De orthographia
 DST:
   abbreviation: DST
+  title: De schematibus et tropis
   editions: 
     - giles: 6.80-98
-  title: De schematibus et tropis
 DT:
   abbreviation: DT
+  title: De temporibus
   editions: 
     - giles: 6.123-38
-  title: De temporibus
 DTR:
   abbreviation: DTR
+  title: De temporum ratione
   editions: 
     - giles: 6.139-352
-  title: De temporum ratione
 EpA:
   abbreviation: EpA
+  title: Epistula ad Albinum
   editions: 
     - giles: '1.106-7'
-  heerwagen: ''
-  migne: ''
-  title: Epistula ad Albinum
 EpE:
   abbreviation: EpE
+  title: Epistula ad Ecgbertum
   editions: 
     - giles: 1.108-143
-  title: Epistula ad Ecgbertum
 EpH:
   abbreviation: EpH
-  editions: []
   title: Epistula ad Helmuualdum
+  editions: []
 EpP:
   abbreviation: EpP
+  title: Epistula ad Pleguinum
   editions: 
     - giles: 1.144-154
-  title: Epistula ad Pleguinum
 EpW:
   abbreviation: EpW
+  title: Epistula ad Uuicthedum
   editions: 
     - giles: 1.155-168
-  title: Epistula ad Uuicthedum
 H:
   abbreviation: H
+  title: Homiliae euangelii
   editions: 
     - giles: 5.1-464
-  title: Homiliae euangelii
 HAB:
   abbreviation: HAB
+  title: Historia abbatum
   editions: 
     - giles: 4.358-401
-  title: Historia abbatum
 HE:
   abbreviation: HE
-  editions: 
-    - giles: 2.22-397 and 3.4-319 (odd) 
   title: Historia ecclesiastica gentis Anglorum
   notes: Giles 2.25-26 superseded by 3.s447-48
+  editions: 
+    - giles: 2.22-397 and 3.4-319 (odd) 
 M:
   abbreviation: M
+  title: Martyrologium
   editions: 
     - giles: 4.16-172
-  title: Martyrologium
 P:
   abbreviation: P
-  editions: []
   title: Poems
+  editions: {}
 VA:
   abbreviation: VA
-  editions: []
   title: Passio Anastasii
+  editions: {}
 VCM:
   abbreviation: VCM
+  title: Vita Cuthberti metrica
   editions: 
     - giles: 1.1-34
-  title: Vita Cuthberti metrica
 VCP:
   abbreviation: VCP
+  title: Vita Cuthberti prosaica
   editions: 
     - giles: 4.202-357
-  title: Vita Cuthberti prosaica
 VF:
   abbreviation: VF
+  title: Vita Felicis
   editions: 
     - giles: 4.174-201
-  title: Vita Felicis
