@@ -2,7 +2,7 @@ CAc:
   abbreviation: CAc
   title: Expositio Actuum Apostolorum
   editions:
-    giles: 1.184-86 and 12.1-95
+    giles: 1.184-86, 12.1-95
 CAcN:
   abbreviation: CAcN
   title: Expositio nominum locorum in Actus contentorum
@@ -11,7 +11,7 @@ CAcR:
   abbreviation: CAcR
   title: Retractatio in Actus Apostolorum
   editions: 
-    giles: 1.187-88 and 12.96-156
+    giles: 1.187-88, 12.96-156
 CAp:
   abbreviation: CAp
   title: Expositio Apocalypseos
@@ -26,7 +26,7 @@ CEC:
   abbreviation: CEC
   title: In epistulas VII catholicas
   editions: 
-    giles: 1.215-16 and 12.157-336
+    giles: 1.215-16, 12.157-336
 CEP:
   abbreviation: CEP
   title: Collectio ex opusculis sancti Augustini in epistulas Pauli
@@ -35,7 +35,7 @@ CEz:
   abbreviation: CEz
   title: In Ezram et Neemiam
   editions: 
-    giles: 8.360-463 and 9.1-52
+    giles: 8.360-463, 9.1-52
 CGH:
   abbreviation: CGH
   title: In principium Genesis (Ia only)
@@ -44,7 +44,7 @@ CGL:
   abbreviation: CGL
   title: In principium Genesis (long vers. in four books)
   editions:
-    giles: 1.169-70 and 7.1-224
+    giles: 1.169-70, 7.1-224
 CGS:
   abbreviation: CGS
   editions: {}
@@ -68,7 +68,7 @@ CM:
   abbreviation: CM
   title: In Marci euangelium expositio
   editions: 
-    giles: 1.176 and 10.1-264
+    giles: 1.176, 10.1-264
 CMF:
   abbreviation: CMF
   title: De mansionibus filiorum Israel
@@ -91,12 +91,12 @@ CQT:
   abbreviation: CQT
   title: In Regum librum XXX quaestiones
   editions: 
-    giles: 1.174-75 and 8.232-61
+    giles: 1.174-75, 8.232-61
 CS:
   abbreviation: CS
   title: In primam partem Samuhelis
   editions: 
-    giles: 7.368-432 and 8.1-231
+    giles: 7.368-432, 8.1-231
 CTa:
   abbreviation: CTa
   title: De tabernaculo
@@ -106,7 +106,7 @@ CTe:
   abbreviation: CTe
   title: De templo
   editions: 
-    giles: 1.171-73 and 8.262-359
+    giles: 1.171-73, 8.262-359
 CTo:
   abbreviation: CTo
   title: In librum beati patris Tobiae
@@ -195,7 +195,7 @@ HE:
   title: Historia ecclesiastica gentis Anglorum
   notes: Giles 2.25-26 superseded by 3.s447-48
   editions: 
-    giles: 2.22-397 and 3.4-319 (odd) 
+    giles: 2.22-397, 3.4-319 (odd) 
 M:
   abbreviation: M
   title: Martyrologium
