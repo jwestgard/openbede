@@ -6,7 +6,7 @@ CAc:
 CAcN:
   abbreviation: CAcN
   title: Expositio nominum locorum in Actus contentorum
-  editions: {}
+  editions: None
 CAcR:
   abbreviation: CAcR
   title: Retractatio in Actus Apostolorum
@@ -30,7 +30,7 @@ CEC:
 CEP:
   abbreviation: CEP
   title: Collectio ex opusculis sancti Augustini in epistulas Pauli
-  editions: {}
+  editions: None
 CEz:
   abbreviation: CEz
   title: In Ezram et Neemiam
@@ -39,7 +39,7 @@ CEz:
 CGH:
   abbreviation: CGH
   title: In principium Genesis (Ia only)
-  editions: {}
+  editions: None
 CGL:
   abbreviation: CGL
   title: In principium Genesis (long vers. in four books)
@@ -47,7 +47,7 @@ CGL:
     giles: 1.169-70, 7.1-224
 CGS:
   abbreviation: CGS
-  editions: {}
+  editions: None
   title: In principium Genesis (short vers. = Ia+Ib)
 CH:
   abbreviation: CH
@@ -82,11 +82,11 @@ CPr:
 CPs:
   abbreviation: CPs
   title: Collectio Psalterii
-  editions: {}
+  editions: None
 CQO:
   abbreviation: CQO
   title: De octo quaestionibus
-  editions: {}
+  editions: None
 CQT:
   abbreviation: CQT
   title: In Regum librum XXX quaestiones
@@ -110,7 +110,7 @@ CTe:
 CTo:
   abbreviation: CTo
   title: In librum beati patris Tobiae
-  editions: {}
+  editions: None
 ChMa:
   abbreviation: ChMa
   title: Chronica maiora
@@ -169,7 +169,7 @@ EpE:
 EpH:
   abbreviation: EpH
   title: Epistula ad Helmuualdum
-  editions: []
+  editions: None
 EpP:
   abbreviation: EpP
   title: Epistula ad Pleguinum
@@ -204,11 +204,11 @@ M:
 P:
   abbreviation: P
   title: Poems
-  editions: {}
+  editions: None
 VA:
   abbreviation: VA
   title: Passio Anastasii
-  editions: {}
+  editions: None
 VCM:
   abbreviation: VCM
   title: Vita Cuthberti metrica
