@@ -8,9 +8,9 @@ import yaml
 import lxml.etree as ET
 
 
-DATA_HOME = '../data/ts_output/'
-XML_OUT   = '../edition'
-HTML_OUT  = '../docs'
+DATA_HOME = 'data/ts_output/'
+XML_OUT   = 'edition'
+HTML_OUT  = 'docs'
 OFFSETS   = { 'v01': 176,   'v02': 6,   'v03': 10,  'v04': 27,
               'v05': 18,    'v06': 30,  'v07': 16,  'v08': 16,
               'v09': 18,    'v10': 20,  'v11': 16,  'v12': 18
@@ -91,7 +91,31 @@ class WorkTree:
 
 class HTMLTree:
     def __init__(self, files, source):
-        pass
+        self.root        = ET.Element("xhtml")
+        self.tree        = ET.ElementTree(self.root)
+        self.meta        = ET.SubElement(self.root, "head")
+        self.source      = ET.SubElement(self.meta, "title")
+        self.source.text = source
+        self.body        = ET.SubElement(self.root, "body")
+        for file in files:
+            ed, bk, p, seq = os.path.basename(file).split('-')
+            with open(file, 'r') as pagehandle:
+                para = ET.SubElement(self.body, "p")
+                lines = [line.strip() for line in pagehandle.readlines()]
+                para.text = ''
+                for ln, line in enumerate(lines):
+                    if ln == 0:
+                        pass
+                    else:
+                        if line.endswith('-'):
+                            line = line[:-1]
+                        para.text = para.text + line
+                            
+                        
+    def serialize(self, path):
+        self.tree.write(path, pretty_print=True, xml_declaration=True,
+                        encoding='utf-8')
+
 
 
 def main():
@@ -111,7 +135,8 @@ def main():
                 citation = "{0}, {1}".format(edition.upper(), blocks)
                 xml = WorkTree(files, citation)
                 xml.serialize(os.path.join(XML_OUT, (abbrev + '.xml')))
-
+                html = HTMLTree(files, citation)
+                html.serialize(os.path.join(HTML_OUT, (abbrev + '.html')))
 
 if __name__ == "__main__":
     main()
