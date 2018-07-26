@@ -8,30 +8,47 @@ import yaml
 import lxml.etree as ET
 
 
-REFERENCE = 'Giles 6.123-138'
 DATA_HOME = '../data/ts_output/'
+XML_OUT   = '../edition'
+HTML_OUT  = '../docs'
 OFFSETS   = { 'v01': 176,   'v02': 6,   'v03': 10,  'v04': 27,
               'v05': 18,    'v06': 30,  'v07': 16,  'v08': 16,
               'v09': 18,    'v10': 20,  'v11': 16,  'v12': 18
               }
 
 
-def get_files(citation, root, offsets):
-    edition, ref = citation.split()
-    edition = edition.lower()
-    book, pagerange = ref.split('.')
-    book = 'v{0:02d}'.format(int(book))
-    offset = int(offsets[book])
-    start, end = map(int, pagerange.split('-'))
-    end += 1
-    dir = os.path.join(root, edition)
-    files = []
-    for n in range(start, end):
-        seq  = 's{0:03d}'.format(n+offset-1)
-        page = 'p{0:03d}'.format(n)
-        file = "{0}-{1}-{2}-{3}.png.txt".format(edition, book, page, seq)
-        files.append(os.path.join(root, edition, book, file))
-    return files
+def get_files(edition, blocks, root, offsets):
+    result = []
+    odd = False
+    even = False
+    for block in blocks.split(','):
+        if ' (odd)' in block:
+            odd = True
+            block = block.replace(' (odd)', '')
+        elif ' (even)' in block:
+            even = True
+            block = block.replace(' (odd)', '')
+        book, pagerange = block.split('.')
+        book = 'v{0:02d}'.format(int(book))
+        offset = int(offsets[book])
+        if '-' in pagerange:
+            start, end = map(int, pagerange.split('-'))
+        else:
+            start = end = int(pagerange)
+        end += 1
+        dir = os.path.join(root, edition)
+        if odd:
+            pagenums = [n for n in range(start, end) if n%2 == 1]
+        elif even:
+            pagenums = [n for n in range(start, end) if n%2 == 0]
+        else:
+            pagenums = range(start, end)
+        for n in range(start, end):
+            seq  = 's{0:03d}'.format(n+offset-1)
+            page = 'p{0:03d}'.format(n)
+            file = "{0}-{1}-{2}-{3}.png.txt".format(edition, book, page, seq)
+            result.append(os.path.join(root, edition, book, file))
+    return result
 
 
 class Config():
@@ -68,8 +85,13 @@ class WorkTree:
                         encoding='utf-8')
     
     def __str__(self):
-        print(ET.tostring(wtree.root, pretty_print=True, encoding='utf8',
+        print(ET.tostring(self.root, pretty_print=True, encoding='utf8',
                           xml_declaration=True).decode())
+
+
+class HTMLTree:
+    def __init__(self, files, source):
+        pass
 
 
 def main():
@@ -79,10 +101,16 @@ def main():
     args = parser.parse_args()
     config = Config(args.c)
     all_works = config.works
-    giles_works = [w for w in all_works.values() if "giles" in w['editions']]
-    for w in giles_works:
-        print(w['title'], w['editions']['giles'])
-        
+    for abbrev,work in all_works.items():
+        if work['editions'] == "None":
+            continue
+        else:
+            print(abbrev, work['title'], work['editions'])
+            for edition, blocks in work['editions'].items():
+                files = get_files(edition, blocks, DATA_HOME, OFFSETS)
+                citation = "{0}, {1}".format(edition.upper(), blocks)
+                xml = WorkTree(files, citation)
+                xml.serialize(os.path.join(XML_OUT, (abbrev + '.xml')))
 
 
 if __name__ == "__main__":
