@@ -95,21 +95,29 @@ class HTMLTree:
         self.tree        = ET.ElementTree(self.root)
         self.head        = ET.SubElement(self.root, "head")
         
-        meta = ET.SubElement(self.head, "meta")
-        meta.set('http-equiv', 'content-type')
-        meta.set('content', 'text/html; charset=utf-8')
-        link = ET.SubElement(self.head, "link")
-        link.set('rel' = 'stylesheet')
-        link.set('type' = 'text/css')
-        link.set('href' = 'css/stylesheet.css')
+        meta = ET.SubElement(self.head, "meta", 
+                             charset = 'utf-8', 
+                             )
+        link = ET.SubElement(self.head, "link", 
+                             rel = 'stylesheet',         
+                             type = 'text/css', 
+                             href = 'css/stylesheet.css'
+                             )
         
         self.source      = ET.SubElement(self.head, "title")
         self.source.text = source
         self.body        = ET.SubElement(self.root, "body")
+        self.pageframe   = ET.SubElement(self.body, "div", id = "page-frame")
+        self.mainframe   = ET.SubElement(self.pageframe, "div", 
+                                         id = "main-frame"
+                                         )
+        self.maintext    = ET.SubElement(self.mainframe, "div", 
+                                         id = "main-text"
+                                         )
         for file in files:
             ed, bk, p, seq = os.path.basename(file).split('-')
             with open(file, 'r') as pagehandle:
-                para = ET.SubElement(self.body, "p")
+                para = ET.SubElement(self.maintext, "p")
                 lines = [line.strip() for line in pagehandle.readlines()]
                 para.text = ''
                 for ln, line in enumerate(lines):
