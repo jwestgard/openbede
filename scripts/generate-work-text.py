@@ -93,8 +93,17 @@ class HTMLTree:
     def __init__(self, files, source):
         self.root        = ET.Element("xhtml")
         self.tree        = ET.ElementTree(self.root)
-        self.meta        = ET.SubElement(self.root, "head")
-        self.source      = ET.SubElement(self.meta, "title")
+        self.head        = ET.SubElement(self.root, "head")
+        
+        meta = ET.SubElement(self.head, "meta")
+        meta.set('http-equiv', 'content-type')
+        meta.set('content', 'text/html; charset=utf-8')
+        link = ET.SubElement(self.head, "link")
+        link.set('rel' = 'stylesheet')
+        link.set('type' = 'text/css')
+        link.set('href' = 'css/stylesheet.css')
+        
+        self.source      = ET.SubElement(self.head, "title")
         self.source.text = source
         self.body        = ET.SubElement(self.root, "body")
         for file in files:
